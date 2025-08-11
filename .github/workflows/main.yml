@@ -9,12 +9,13 @@ jobs:
         uses: actions/setup-java@v1
         with:
           java-version: '11'
-      - name: Build APK
+      - name: Unzip Project
         run: |
           unzip EnglishFromZero_Project_Full_Games.zip
           cd EnglishFromZero_Project_Full_Games
           chmod +x gradlew
-          ./gradlew assembleDebug
+      - name: Build APK
+        run: ./gradlew assembleDebug --stacktrace
       - name: Upload APK
         uses: actions/upload-artifact@v2
         with:
