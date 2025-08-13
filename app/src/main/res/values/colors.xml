@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="turquoise_light">#FF40E0D0</color>
+    <color name="green_light">#FF008000</color>
+    <color name="brown_light">#FFA52A2A</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="turquoise_dark">#FF00A693</color>
+    <color name="green_dark">#FF2E7D32</color>
+    <color name="brown_dark">#FF6D4C41</color>
+</resources>
